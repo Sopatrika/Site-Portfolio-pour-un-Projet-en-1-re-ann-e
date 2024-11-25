@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin:0px;
+    background-image:url("../img/fond.jpg");
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin:20px;
+    color: #1E0C84;
+    font-weight: bold;
+}
+
+header>img {
+    width: 50px;
+}
+
+.liens {
+    margin-left: auto;
+    margin-right:3vw;
+    display: flex;
+    gap:30px;
+}
+
+main {
+    color: white;
+    width: fit-content;
+    margin-top: 10vw;
+}
+
+.center {
+    margin-bottom: 30vw;
+    color:#1E0C84;
+    display: grid;
+    justify-content: center;
+}
+
+.center>h1 {
+    display: grid;
+    justify-content: center;
+}
+
+h3 {
+    display: grid;
+    justify-content: center;
+}
+
+.bouton_scroll {
+    padding: 6px;
+    background-color: rgb(241, 241, 241);
+    color: black;
+    transition: 0.3s;
+    border: solid 0px;
+    border-color: black;
+    border-radius:10px;
+    box-shadow: 0px 0px 3px rgb(255, 255, 255);
+}
+
+.bouton_scroll:hover {
+    color:rgb(233, 0, 0);
+    transform: scale(1.2);
+}
+
+.page_présentation {
+    margin: 30px;
+}
+
+.h1_présentation {
+    color:#1E0C84;
+    display: flex;
+    justify-content: center;
+}
+
+.flex_présentation {
+    display: flex;
+    color:black;
+    justify-content: center;
+}
+
+.flex_présentation>div>p {
+    font-size: 15px;
+    align-items: center;
+}
+
+.bouton_Lien_SAE {
+    display: flex;
+    width: fit-content;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(81, 81, 160, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+    color:white;
+}
+
+.bouton_Lien_SAE:hover {
+    transform: scale(1.3);
+    background-color: rgb(81, 81, 160);
+}
+
+footer {
+    display: flex;
+    gap: 67vw;
+    margin-top: 15vw;
+    align-items: center;
+    margin-top: 10vw;
+    margin-bottom: 10px;
+}
+
+.footer_liens>a>img {
+    width: 30px;
+}
